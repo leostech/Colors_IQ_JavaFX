@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Register_cn">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="400.0" />
+      <ImageView fitHeight="600.0" fitWidth="400.0">
+         <image>
+            <Image url="@Picture2.png" />
+         </image>
+      </ImageView>
+      <Button defaultButton="true" layoutX="118.0" layoutY="104.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #F8CCAD; -fx-background-radius: 5; -fx-border-color: #32538F; -fx-border-radius: 5;" text="Registration" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="name" alignment="CENTER" cache="true" layoutX="97.0" layoutY="188.0" prefHeight="48.0" prefWidth="208.0" promptText="Enter username:" style="-fx-background-color: #C5E0B4; -fx-border-color: #32538F;" />
+      <TextField fx:id="email" alignment="CENTER" cache="true" layoutX="97.0" layoutY="283.0" prefHeight="48.0" prefWidth="208.0" promptText="Enter email :" style="-fx-background-color: #C5E0B4; -fx-border-color: #32538F;" />
+      <TextField fx:id="password" alignment="CENTER" cache="true" layoutX="97.0" layoutY="374.0" prefHeight="48.0" prefWidth="208.0" promptText="Enter password :" style="-fx-background-color: #C5E0B4; -fx-border-color: #32538F;" />
+      <Button defaultButton="true" layoutX="169.0" layoutY="461.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="37.0" prefWidth="65.0" style="-fx-background-color: #ffffffff; -fx-border-color: #70AD45;" text="Next" textAlignment="CENTER" textFill="#2c0303">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="user_lable" layoutX="97.0" layoutY="168.0" text="UserName is empty try again!" textFill="#f21313" visible="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="email_lable" layoutX="97.0" layoutY="264.0" textFill="#f21313" visible="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="password_lable" layoutX="97.0" layoutY="355.0" text="Password is empty try again!" textFill="#f21313" visible="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn" defaultButton="true" layoutX="35.0" layoutY="513.0" mnemonicParsing="false" onAction="#buttonPressed2" prefHeight="37.0" prefWidth="112.0" style="-fx-background-color: #F8CCAD; -fx-background-radius: 5; -fx-border-color: #32538F; -fx-border-radius: 5;" text="Try Again!" textAlignment="CENTER" textFill="#1e1d1d" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

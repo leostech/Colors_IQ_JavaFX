@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameT_cn">
+   <children>
+
+      <ImageView fitHeight="600.0" fitWidth="400.0">
+         <image>
+            <Image url="@Picture2.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="43.0" layoutY="51.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="315.0" style="-fx-background-color: #F8CCAD; -fx-border-radius: 5; -fx-border-color: #32538F; -fx-background-radius: 5;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="343.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="315.0" style="-fx-background-color: #F8CCAD; -fx-border-radius: 5; -fx-border-color: #32538F; -fx-background-radius: 5;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="198.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="315.0" style="-fx-background-color: #F8CCAD; -fx-border-radius: 5; -fx-border-color: #32538F; -fx-background-radius: 5;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button defaultButton="true" layoutX="46.0" layoutY="519.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: #C45C28; -fx-border-color: #32538F;" text="Exit" textAlignment="CENTER" textFill="#2c0303">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="71.0" layoutY="64.0" prefHeight="64.0" prefWidth="266.0" text="1 - select the different color ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="91.0" prefHeight="64.0" prefWidth="239.0" text="from the boxes displayed">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="208.0" prefHeight="64.0" prefWidth="291.0" text="2 - you are given 15 seconds to ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="242.0" prefHeight="64.0" prefWidth="245.0" text="complete each level ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="375.0" prefHeight="64.0" prefWidth="239.0" text="reach higher levels">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="343.0" prefHeight="64.0" prefWidth="266.0" text="3 - the difficulty varies as you ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

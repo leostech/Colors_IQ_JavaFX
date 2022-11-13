@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level3_cn">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="400.0" />
+      <ImageView fitHeight="600.0" fitWidth="400.0">
+         <image>
+            <Image url="@Picture2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Score" layoutX="24.0" layoutY="24.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="361.0" layoutY="29.0" text="lvl3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="second" defaultButton="true" layoutX="161.0" layoutY="82.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #ffffffff; -fx-border-color: #70AD45;" textAlignment="CENTER" textFill="#2c0303">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button defaultButton="true" layoutX="37.0" layoutY="551.0" mnemonicParsing="false" onAction="#buttonPressed9" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: #C45C28; -fx-border-color: #32538F;" text="Exit" textAlignment="CENTER" textFill="#2c0303">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn" defaultButton="true" layoutX="147.0" layoutY="481.0" mnemonicParsing="false" onAction="#buttonPressed8" prefHeight="37.0" prefWidth="133.0" style="-fx-background-color: #ffffffff; -fx-border-color: #70AD45;" textAlignment="CENTER" textFill="#2c0303" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="102.0" layoutY="132.0" text="Pick the different box">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="36.0" layoutY="216.0" mnemonicParsing="false" onAction="#buttonPressedr" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #4E2B81; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="120.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonPressed1" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="205.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonPressed2" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="289.0" layoutY="215.0" mnemonicParsing="false" onAction="#buttonPressed3" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="289.0" layoutY="330.0" mnemonicParsing="false" onAction="#buttonPressed4" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="205.0" layoutY="330.0" mnemonicParsing="false" onAction="#buttonPressed5" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="120.0" layoutY="329.0" mnemonicParsing="false" onAction="#buttonPressed6" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <Button layoutX="36.0" layoutY="328.0" mnemonicParsing="false" onAction="#buttonPressed7" prefHeight="72.0" prefWidth="73.0" style="-fx-background-color: #673E98; -fx-border-color: #32538F; -fx-border-radius: 15; -fx-background-radius: 15;" />
+      <ImageView fx:id="right" fitHeight="57.0" fitWidth="67.0" layoutX="40.0" layoutY="223.0" visible="false">
+         <image>
+            <Image url="@Picture4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close7" fitHeight="72.0" fitWidth="67.0" layoutX="36.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close6" fitHeight="72.0" fitWidth="67.0" layoutX="120.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close5" fitHeight="72.0" fitWidth="67.0" layoutX="202.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close4" fitHeight="72.0" fitWidth="67.0" layoutX="287.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close3" fitHeight="72.0" fitWidth="67.0" layoutX="288.0" layoutY="223.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close2" fitHeight="72.0" fitWidth="67.0" layoutX="205.0" layoutY="223.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="close1" fitHeight="72.0" fitWidth="67.0" layoutX="120.0" layoutY="223.0" visible="false">
+         <image>
+            <Image url="@Picture6.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
